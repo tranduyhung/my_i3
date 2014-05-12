@@ -29,7 +29,7 @@ floating_modifier $mod
 # (Starting iceweasel with i3’s exec command is important in order to make i3
 #  create a startup notification context, without which the iceweasel window(s)
 #  cannot be matched onto the workspace on which the command was started.)
-exec --no-startup-id i3-msg 'workspace 2; exec iceweasel; workspace 3; exec icedove; workspace 1; exec sublime'
+exec --no-startup-id i3-msg 'workspace 2; exec iceweasel; workspace 3; exec midori; workspace 4; exec lxterminal; workspace 1; exec sublime3'
 
 # start Sublime Text
 bindsym $mod+F1 exec sublime
